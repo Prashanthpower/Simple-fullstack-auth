@@ -43,7 +43,7 @@ const Welcome = () => {
       <button
         onClick={() => {
           localStorage.removeItem("token");
-          window.location.href = "/";
+          window.location.href = process.env.PUBLIC_URL + "/";
         }}
         style={{ marginTop: "20px" }}
       >
