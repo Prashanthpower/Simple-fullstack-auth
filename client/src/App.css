@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background: #f5f6fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.auth-container, .details-container, .welcome-container {
+  background: #fff;
+  max-width: 350px;
+  margin: 60px auto 0 auto;
+  padding: 32px 28px 24px 28px;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.auth-form, .details-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 18px;
+}
+
+input, select {
+  padding: 10px 12px;
+  border: 1px solid #dcdde1;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+}
+
+input:focus, select:focus {
+  border: 1.5px solid #4078c0;
+}
+
+button {
+  background: #4078c0;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 0;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #305a8c;
+}
+
+.toggle-btn {
+  background: none;
+  color: #4078c0;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 6px;
+  text-decoration: underline;
+  padding: 0;
+}
+
+h2 {
+  margin-bottom: 8px;
+  color: #222f3e;
+}
+
+p {
+  color: #576574;
+  margin: 10px 0 0 0;
+}
