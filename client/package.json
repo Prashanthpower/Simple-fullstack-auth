@@ -38,4 +38,8 @@
       "last 1 safari version"
     ]
   }
+  "homepage": "https://prashant-kumar-123.github.io/Cursor-Example",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
