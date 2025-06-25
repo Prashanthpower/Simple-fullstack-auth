@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Cursor-Example/static/css/main.8954955b.css",
-    "main.js": "/Cursor-Example/static/js/main.e7f972be.js",
-    "index.html": "/Cursor-Example/index.html",
-    "main.8954955b.css.map": "/Cursor-Example/static/css/main.8954955b.css.map",
-    "main.e7f972be.js.map": "/Cursor-Example/static/js/main.e7f972be.js.map"
+    "main.css": "/Simple-fullstack-auth/static/css/main.8954955b.css",
+    "main.js": "/Simple-fullstack-auth/static/js/main.e7f972be.js",
+    "index.html": "/Simple-fullstack-auth/index.html",
+    "main.8954955b.css.map": "/Simple-fullstack-auth/static/css/main.8954955b.css.map",
+    "main.e7f972be.js.map": "/Simple-fullstack-auth/static/js/main.e7f972be.js.map"
   },
   "entrypoints": [
     "static/css/main.8954955b.css",
